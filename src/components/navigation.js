@@ -10,7 +10,7 @@ const Navigation = (props) => {
     <header data-role="Header" className="navigation-header">
       <div className="navigation-max-width">
         <img
-          src="/logo_colorstranstop-200h.png"
+          src="/logo_colorstranstop-1500h.png"
           className="navigation-image1"
         />
         <div className="navigation-nav1">
@@ -33,7 +33,11 @@ const Navigation = (props) => {
         <div data-role="MobileMenu" className="mobile-menu">
           <div className="navigation-nav2">
             <div className="navigation-container">
-              <img alt={props.imageAlt1} src={props.imageSrc1} />
+              <img
+                alt="image"
+                src="/logo_colorstranstop-1500h.png"
+                className="navigation-image2"
+              />
               <div
                 data-role="CloseMobileMenu"
                 className="navigation-close-mobile-menu"
@@ -59,15 +63,11 @@ const Navigation = (props) => {
 
 Navigation.defaultProps = {
   button: 'Get in touch',
-  imageAlt1: 'image',
-  imageSrc1: '/logo_colorstranstop-200h.png',
   button2: 'Get in touch',
 }
 
 Navigation.propTypes = {
   button: PropTypes.string,
-  imageAlt1: PropTypes.string,
-  imageSrc1: PropTypes.string,
   button2: PropTypes.string,
 }
 
