@@ -60,7 +60,7 @@ const Navigation = (props) => {
 Navigation.defaultProps = {
   button: 'Get in touch',
   imageAlt1: 'image',
-  imageSrc1: '/logo1-1500h.png',
+  imageSrc1: '/logo_colorstranstop-200h.png',
   button2: 'Get in touch',
 }
 

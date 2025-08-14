@@ -25,7 +25,7 @@ const Home = (props) => {
                 Where Craftsmanship meets Creativity
               </h1>
               <button className="home-primary1 button-primary button-lg button">
-                Get in touch with us
+                Get in touch with me
               </button>
             </div>
             <div className="home-gallery">
@@ -120,7 +120,7 @@ const Home = (props) => {
               <span className="home-text15">about Me</span>
               <h2 className="home-text16 Heading2">
                 <span>
-                  We craft custom woodwork with
+                  I craft custom woodwork with
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -253,7 +253,7 @@ const Home = (props) => {
         </div>
         <div className="home-banner section-container">
           <div className="home-max-width5 max-content-container">
-            <span className="home-text46">what are you waiting?</span>
+            <span className="home-text46">what are you waiting for?</span>
             <h2 className="home-text47 Heading2">Let’s collaborate!</h2>
             <span className="home-text48">
               Have a project in mind? Let’s bring it to life with expert
