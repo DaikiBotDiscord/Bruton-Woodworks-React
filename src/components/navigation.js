@@ -10,7 +10,7 @@ const Navigation = (props) => {
     <header data-role="Header" className="navigation-header">
       <div className="navigation-max-width">
         <img
-          src="/logo_colorstranstop-1500h.png"
+          src="logo_colorstranstop-200h.png"
           className="navigation-image1"
         />
         <div className="navigation-nav1">
@@ -35,7 +35,7 @@ const Navigation = (props) => {
             <div className="navigation-container">
               <img
                 alt="image"
-                src="/logo_colorstranstop-1500h.png"
+                src="/logo_colorstranstop-200h.png"
                 className="navigation-image2"
               />
               <div
