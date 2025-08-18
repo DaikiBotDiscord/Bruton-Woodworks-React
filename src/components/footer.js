@@ -128,14 +128,22 @@ const Footer = (props) => {
           {props.text ?? (
             <Fragment>
               <span className="footer-text33">
-                <span className="footer-text34">All rights reserved ©</span>
                 <span>
+                  All rights reserved
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
                     }}
                   />
                 </span>
+                <a
+                  href="https://app.copyrighted.com/website/cTJZUAvq781Ukxnm/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  ©
+                </a>
+                <span> Daiki Development</span>
               </span>
             </Fragment>
           )}
