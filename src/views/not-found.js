@@ -18,7 +18,7 @@ const NotFound = (props) => {
         <h2 className="not-found-text3">
           PARDON US, WE ARE STILL DEVELOPING OUR WEBSITE
         </h2>
-        <h2>
+        <h2 className="not-found-text3">
           SO THIS MIGHT NOT BE THE RIGHT THING TO SEE
         </h2>
       </div>
