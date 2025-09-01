@@ -126,6 +126,7 @@
 
 .footer-text21 {
   align-self: center;
+  text-align: right;
 }
 
 .footer-text22 {
@@ -147,8 +148,14 @@
 
 .footer-text33 {
   display: inline-block;
-  font-size: 18px;
-  align-self: center;
+}
+
+.footer-text34 {
+  display: inline-block;
+}
+
+.footer-text35 {
+  display: inline-block;
 }
 
 .footer-text36 {
@@ -169,14 +176,10 @@
 
 .footer-text40 {
   display: inline-block;
-}
-
-.footer-text41 {
-  display: inline-block;
-}
-
-.footer-text42 {
-  display: inline-block;
+  font-size: 18px;
+  align-self: center;
+  font-style: normal;
+  font-weight: 700;
 }
 
 @media(max-width: 767px) {
@@ -227,7 +230,7 @@
     text-align: center;
   }
 
-  .footer-text33 {
+  .footer-text40 {
     text-align: center;
   }
 }

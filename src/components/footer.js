@@ -14,7 +14,7 @@ const Footer = (props) => {
               <span className="footer-text10">
                 {props.text2 ?? (
                   <Fragment>
-                    <span className="footer-text41">Product</span>
+                    <span className="footer-text38">Product</span>
                   </Fragment>
                 )}
               </span>
@@ -28,14 +28,14 @@ const Footer = (props) => {
               <span className="footer-text12">
                 {props.text4 ?? (
                   <Fragment>
-                    <span className="footer-text36">Portofolio</span>
+                    <span className="footer-text33">Portfolio</span>
                   </Fragment>
                 )}
               </span>
               <span>
                 {props.text5 ?? (
                   <Fragment>
-                    <span className="footer-text42">Blog</span>
+                    <span className="footer-text39">Blog</span>
                   </Fragment>
                 )}
               </span>
@@ -44,14 +44,14 @@ const Footer = (props) => {
               <span className="footer-text14">
                 {props.text6 ?? (
                   <Fragment>
-                    <span className="footer-text37">Navigate</span>
+                    <span className="footer-text34">Navigate</span>
                   </Fragment>
                 )}
               </span>
               <span className="footer-text15">
                 {props.text8 ?? (
                   <Fragment>
-                    <span className="footer-text40">Sitemap</span>
+                    <span className="footer-text37">Sitemap</span>
                   </Fragment>
                 )}
               </span>
@@ -92,7 +92,7 @@ const Footer = (props) => {
             <span className="footer-text19">
               {props.text1 ?? (
                 <Fragment>
-                  <span className="footer-text39">
+                  <span className="footer-text36">
                     Subscribe to our newsletter
                   </span>
                 </Fragment>
@@ -107,7 +107,7 @@ const Footer = (props) => {
               <span>
                 {props.button ?? (
                   <Fragment>
-                    <span className="footer-text38">Subscribe</span>
+                    <span className="footer-text35">Subscribe</span>
                   </Fragment>
                 )}
               </span>
@@ -125,9 +125,9 @@ const Footer = (props) => {
           />
         </a>
         <span className="footer-text21">
-          {props.text ?? (
+          {props.text12 ?? (
             <Fragment>
-              <span className="footer-text33">
+              <span className="footer-text40">
                 <span>
                   All rights reserved
                   <span
@@ -143,7 +143,8 @@ const Footer = (props) => {
                 >
                   ©
                 </a>
-                <span> Daiki Development</span>
+                <br></br>
+                <span>Daiki Development</span>
               </span>
             </Fragment>
           )}
@@ -159,7 +160,6 @@ Footer.defaultProps = {
   text3: undefined,
   imageSrc: '/bruton_woodworks-300w.png',
   text10: undefined,
-  text: undefined,
   text4: undefined,
   text6: undefined,
   imageAlt: 'image',
@@ -169,6 +169,7 @@ Footer.defaultProps = {
   text2: undefined,
   text5: undefined,
   textinputPlaceholder: 'Enter your e-mail address',
+  text12: undefined,
 }
 
 Footer.propTypes = {
@@ -177,7 +178,6 @@ Footer.propTypes = {
   text3: PropTypes.element,
   imageSrc: PropTypes.string,
   text10: PropTypes.element,
-  text: PropTypes.element,
   text4: PropTypes.element,
   text6: PropTypes.element,
   imageAlt: PropTypes.string,
@@ -187,6 +187,7 @@ Footer.propTypes = {
   text2: PropTypes.element,
   text5: PropTypes.element,
   textinputPlaceholder: PropTypes.string,
+  text12: PropTypes.element,
 }
 
 export default Footer
