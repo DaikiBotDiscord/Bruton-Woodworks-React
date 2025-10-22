@@ -114,7 +114,7 @@ const Footer = (props) => {
                   />
                 </span>
                 <a
-                  href="https://app.copyrighted.com/website/cTJZUAvq781Ukxnm/"
+                  href="https://app.copyrighted.com/website/NLXVHXvS4Sccgzvg/"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
