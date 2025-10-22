@@ -126,7 +126,25 @@ const Footer = (props) => {
             </Fragment>
           )}
         </span>
+        <a
+          className="copyrighted-badge"
+          title="Copyrighted.com Registered & Protected"
+          target="_blank"
+          href="https://app.copyrighted.com/website/NLXVHXvS4Sccgzvg/"
+          style={{ display: 'none' }}
+        >
+          <img
+            alt="Copyrighted.com Registered & Protected"
+            border="0"
+            width="125"
+            height="25"
+            srcSet="https://static.copyrighted.com/badges/125x25/01_1_2x.png 2x"
+            src="https://static.copyrighted.com/badges/125x25/01_1.png"
+          />
+        </a>
+        <script src="https://static.copyrighted.com/badges/helper.js"></script>
       </footer>
+
     </div>
   )
 }
