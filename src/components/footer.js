@@ -28,14 +28,14 @@ const Footer = (props) => {
               <span className="footer-text12">
                 {props.text4 ?? (
                   <Fragment>
-                    <span className="footer-text33">Portfolio</span>
+                    <span className="footer-text33">Portofolio</span>
                   </Fragment>
                 )}
               </span>
               <span>
                 {props.text5 ?? (
                   <Fragment>
-                    <span className="footer-text39">Blog</span>
+                    <span className="footer-text43">Blog</span>
                   </Fragment>
                 )}
               </span>
@@ -63,30 +63,7 @@ const Footer = (props) => {
                 )}
               </span>
             </div>
-            <div className="footer-contact-container">
-              <span className="footer-text17">
-                {props.text10 ?? (
-                  <Fragment>
-                    <span className="footer-text32">Contact Us</span>
-                  </Fragment>
-                )}
-              </span>
-              <span className="footer-text18">
-                {props.text11 ?? (
-                  <Fragment>
-                    <span className="footer-text22">
-                      <span>5593 S Datura</span>
-                      <br></br>
-                      <span>Street, Littleton</span>
-                      <br></br>
-                      <span> Colorado</span>
-                      <br></br>
-                      <span>80120</span>
-                    </span>
-                  </Fragment>
-                )}
-              </span>
-            </div>
+
           </div>
           <div className="footer-subscribe-container">
             <span className="footer-text19">
@@ -117,7 +94,7 @@ const Footer = (props) => {
       </div>
       <div className="footer-separator"></div>
       <footer className="footer-max-width2 max-content-container">
-        <a href="/home" target="_blank" rel="noreferrer noopener">
+        <a href="/home">
           <img
             alt={props.imageAlt}
             src={props.imageSrc}
@@ -127,7 +104,7 @@ const Footer = (props) => {
         <span className="footer-text21">
           {props.text12 ?? (
             <Fragment>
-              <span className="footer-text40">
+              <span className="footer-text39">
                 <span>
                   All rights reserved
                   <span
@@ -167,9 +144,9 @@ Footer.defaultProps = {
   text1: undefined,
   text8: undefined,
   text2: undefined,
+  text12: undefined,
   text5: undefined,
   textinputPlaceholder: 'Enter your e-mail address',
-  text12: undefined,
 }
 
 Footer.propTypes = {
@@ -185,9 +162,9 @@ Footer.propTypes = {
   text1: PropTypes.element,
   text8: PropTypes.element,
   text2: PropTypes.element,
+  text12: PropTypes.element,
   text5: PropTypes.element,
   textinputPlaceholder: PropTypes.string,
-  text12: PropTypes.element,
 }
 
 export default Footer

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
@@ -9,10 +10,12 @@ const Navigation = (props) => {
   return (
     <header data-role="Header" className="navigation-header">
       <div className="navigation-max-width">
-        <img
-          src="logo_colorstranstop-200h.png"
-          className="navigation-image1"
-        />
+        <Link to="/" className="navigation-navlink">
+          <img
+            src="/logo_colorstranstop-200h.png"
+            className="navigation-image1"
+          />
+        </Link>
         <div className="navigation-nav1">
           <NavigationLinks
             link1="Home"
@@ -35,7 +38,7 @@ const Navigation = (props) => {
             <div className="navigation-container">
               <img
                 alt="image"
-                src="/logo_colorstranstop-200h.png"
+                src="/logo_colorstranstop-1500h.png"
                 className="navigation-image2"
               />
               <div

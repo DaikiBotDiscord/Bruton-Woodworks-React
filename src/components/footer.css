@@ -172,14 +172,14 @@
 
 .footer-text39 {
   display: inline-block;
-}
-
-.footer-text40 {
-  display: inline-block;
   font-size: 18px;
   align-self: center;
   font-style: normal;
   font-weight: 700;
+}
+
+.footer-text43 {
+  display: inline-block;
 }
 
 @media(max-width: 767px) {
@@ -230,7 +230,7 @@
     text-align: center;
   }
 
-  .footer-text40 {
+  .footer-text39 {
     text-align: center;
   }
 }

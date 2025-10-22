@@ -11,15 +11,10 @@ const NavigationLinks = (props) => {
       <Link to="/" className="navigation-links-navlink Navigation-Link">
         {props.link1}
       </Link>
-      <a
-        href="/about"
-        target="_blank"
-        rel="noreferrer noopener"
-        className="navigation-links-link1 Navigation-Link"
-      >
+      <a href="/#about-me" className="navigation-links-link1 Navigation-Link">
         {props.link2}
       </a>
-      <a
+      {/* <a
         href="/portofolio"
         target="_blank"
         rel="noreferrer noopener"
@@ -29,7 +24,7 @@ const NavigationLinks = (props) => {
       </a>
       <a href="/blog" className="navigation-links-link3 Navigation-Link">
         {props.link4}
-      </a>
+      </a> */}
     </nav>
   )
 }
