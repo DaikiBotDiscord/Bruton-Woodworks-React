@@ -92,7 +92,7 @@ const Contact = (props) => {
                         <div className="contact-image-container">
                             <img
                                 alt="image"
-                                src="/contact-image-1000w.jpeg"
+                                src="/contact-image.jpeg"
                                 className="contact-image"
                             />
                         </div>
