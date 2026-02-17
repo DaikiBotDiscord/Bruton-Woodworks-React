@@ -38,7 +38,7 @@ const Navigation = (props) => {
             <div className="navigation-container">
               <img
                 alt="image"
-                src="/logo_colorstranstop-1500h.png"
+                src="/logo_colorstranstop-200h.png"
                 className="navigation-image2"
               />
               <div
