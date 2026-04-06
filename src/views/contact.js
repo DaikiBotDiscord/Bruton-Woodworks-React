@@ -40,8 +40,8 @@ const Contact = (props) => {
                                             fill="currentColor"
                                         ></path>
                                     </svg>
-                                    <a href="tel:+17208458193" className="contact-link1">
-                                        <span>+1 (720) 845-8193</span>
+                                    <a href="tel:+17206869278" className="contact-link1">
+                                        <span>+1 (720) 686-9278</span>
                                         <br></br>
                                     </a>
                                 </div>
