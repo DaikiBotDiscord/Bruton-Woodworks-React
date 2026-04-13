@@ -1,36 +1,44 @@
-.navigation-links-nav {
+.navigation-links-thq-nav-elm {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-
-.navigation-links-navlink {
+ 
+.navigation-links-navlink1 {
+  color: #2c2416;
   cursor: pointer;
+  font-size: 0.95rem;
   transition: 0.3s;
+  font-family: """"Inter", system-ui, sans-serif""";
+  font-weight: 500;
   text-decoration: none;
 }
-
-.navigation-links-navlink:hover {
+ 
+.navigation-links-navlink1:hover {
   color: var(--dl-color-scheme-brown);
 }
-
-.navigation-links-link1 {
+ 
+.navigation-links-text {
+  color: #2c2416;
   cursor: pointer;
+  font-size: 0.95rem;
   transition: 0.3s;
+  font-family: """"Inter", system-ui, sans-serif""";
+  font-weight: 500;
   margin-left: 41px;
-  text-decoration: none;
 }
-
-.navigation-links-link1:hover {
+ 
+.navigation-links-text:hover {
   color: var(--dl-color-scheme-brown);
 }
-
-.navigation-links-link2 {
+ 
+.navigation-links-navlink2 {
+  color: #2c2416;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 0.95rem;
   transition: 0.3s;
-  font-family: "DM Sans";
+  font-family: """"Inter", system-ui, sans-serif""";
   font-weight: 500;
   line-height: 1.6;
   margin-left: 41px;
@@ -38,63 +46,70 @@
   text-transform: capitalize;
   text-decoration: none;
 }
-
-.navigation-links-link2:hover {
+ 
+.navigation-links-navlink2:hover {
   color: var(--dl-color-scheme-brown);
 }
-
-.navigation-links-link3 {
+ 
+.navigation-links-link {
+  color: #2c2416;
   cursor: pointer;
+  font-size: 0.95rem;
   transition: 0.3s;
+  font-family: """"Inter", system-ui, sans-serif""";
+  font-weight: 500;
   margin-left: 41px;
   text-decoration: none;
 }
-
-.navigation-links-link3:hover {
+ 
+.navigation-links-link:hover {
   color: var(--dl-color-scheme-brown);
 }
+ 
+.navigation-links-thq-navlinks-elm {
+  gap: 16px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+}
+ 
 
+ 
 
+ 
 
+ 
 
+ 
 
+ 
 
+ 
 
+ 
 
-
-
-
-
-
-
-
-
-
+ 
 .navigation-linksroot-class-name17 {
   margin-right: var(--dl-layout-space-threeunits);
 }
-
+ 
 @media(max-width: 767px) {
-  .navigation-links-nav {
+  .navigation-links-thq-nav-elm {
     align-items: flex-start;
     flex-direction: column;
   }
-
-  .navigation-links-navlink {
+  .navigation-links-navlink1 {
     margin-bottom: var(--dl-layout-space-unit);
   }
-
-  .navigation-links-link1 {
+  .navigation-links-text {
     margin-left: 0;
     margin-bottom: var(--dl-layout-space-unit);
   }
-
-  .navigation-links-link2 {
+  .navigation-links-navlink2 {
     margin-left: 0;
     margin-bottom: var(--dl-layout-space-unit);
   }
-
-  .navigation-links-link3 {
+  .navigation-links-link {
     margin-left: 0;
     margin-bottom: var(--dl-layout-space-unit);
   }

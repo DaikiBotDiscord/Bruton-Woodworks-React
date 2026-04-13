@@ -8,44 +8,45 @@ import './navigation.css'
 
 const Navigation = (props) => {
   return (
-    <header data-role="Header" className="navigation-header">
-      <div className="navigation-max-width">
+    <header data-role="Header" className="navigation-thq-header-elm">
+      <div className="navigation-thq-max-width-elm">
         <Link to="/" className="navigation-navlink">
           <img
             src="/logo_colorstranstop-200h.png"
-            className="navigation-image1"
+            className="navigation-image"
           />
         </Link>
-        <div className="navigation-nav1">
+        <div className="navigation-thq-nav-elm1">
           <NavigationLinks
             link1="Home"
+            link3="Portfolio"
             rootClassName="navigation-linksroot-class-name17"
           ></NavigationLinks>
           <a
             href="/contact"
-            className="navigation-register1 button-secondary button button-md"
+            className="navigation-thq-register-elm1 button-secondary button button-md"
           >
             {props.button}
           </a>
         </div>
-        <div data-role="BurgerMenu" className="navigation-burger-menu">
-          <svg viewBox="0 0 1024 1024" className="navigation-icon1">
+        <div data-role="BurgerMenu" className="navigation-thq-burger-menu-elm">
+          <svg viewBox="0 0 1024 1024" className="navigation-thq-icon-elm">
             <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
           </svg>
         </div>
         <div data-role="MobileMenu" className="mobile-menu">
-          <div className="navigation-nav2">
-            <div className="navigation-container">
+          <div className="navigation-thq-nav-elm2">
+            <div className="navigation-thq-container-elm">
               <img
                 alt="image"
-                src="/logo_colorstranstop-200h.png"
-                className="navigation-image2"
+                src="/logo_colorstranstop-1500h.png"
+                className="navigation-thq-image-elm"
               />
               <div
                 data-role="CloseMobileMenu"
-                className="navigation-close-mobile-menu"
+                className="navigation-thq-close-mobile-menu-elm"
               >
-                <svg viewBox="0 0 1024 1024" className="navigation-icon3">
+                <svg viewBox="0 0 1024 1024" className="navigation-icon2">
                   <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
                 </svg>
               </div>
@@ -53,13 +54,14 @@ const Navigation = (props) => {
             <NavigationLinks rootClassName="navigation-linksroot-class-name18"></NavigationLinks>
             <a
               href="/contact"
-              className="navigation-register2 button-secondary button button-md"
+              className="navigation-thq-register-elm2 button-secondary button button-md"
             >
               {props.button2}
             </a>
           </div>
         </div>
       </div>
+      <nav className="navigation-thq-navlinks-elm"></nav>
     </header>
   )
 }

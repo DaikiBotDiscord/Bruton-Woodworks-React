@@ -6,20 +6,24 @@ import './portofolio-card.css'
 
 const PortofolioCard = (props) => {
   return (
-    <div className={`portofolio-card-speaker-card ${props.rootClassName} `}>
-      <div className="portofolio-card-image-container">
+    <div
+      className={`portofolio-card-thq-speaker-card-elm ${props.rootClassName} `}
+    >
+      <div className="portofolio-card-thq-image-container-elm">
         <img
           alt={props.imageAlt}
           src={props.imageSrc}
           className="portofolio-card-image"
         />
-        <div className="portofolio-card-see-project-container">
+        <div className="portofolio-card-thq-see-project-container-elm">
           <button className="button-secondary-white button button-md">
             See project
           </button>
         </div>
       </div>
-      <span className="portofolio-card-first-name">{props.projectTitle}</span>
+      <span className="portofolio-card-thq-first-name-elm">
+        {props.projectTitle}
+      </span>
     </div>
   )
 }

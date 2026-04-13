@@ -6,7 +6,7 @@ import './blog-card.css'
 
 const BlogCard = (props) => {
   return (
-    <div className={`blog-card-blog-card ${props.rootClassName} `}>
+    <div className={`blog-card-thq-blog-card-elm ${props.rootClassName} `}>
       <img
         alt={props.imageAlt}
         src={props.imageSrc}

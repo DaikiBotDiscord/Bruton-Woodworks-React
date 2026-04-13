@@ -6,16 +6,16 @@ import './event-card.css'
 
 const EventCard = (props) => {
   return (
-    <div className="event-card-event-card">
+    <div className="event-card-thq-event-card-elm">
       <img
         alt={props.imageAlt}
         src={props.imageSrc}
         className="event-card-image"
       />
-      <div className="event-card-vertical-line"></div>
+      <div className="event-card-thq-vertical-line-elm"></div>
       <div className="event-card-container">
-        <span className="event-card-title">{props.newProp}</span>
-        <span className="event-card-text">{props.text}</span>
+        <span className="event-card-thq-title-elm">{props.newProp}</span>
+        <span className="event-card-thq-text-elm">{props.text}</span>
       </div>
     </div>
   )

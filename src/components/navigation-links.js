@@ -7,30 +7,26 @@ import './navigation-links.css'
 
 const NavigationLinks = (props) => {
   return (
-    <nav className={`navigation-links-nav ${props.rootClassName} `}>
-      <Link to="/" className="navigation-links-navlink Navigation-Link">
+    <nav className={`navigation-links-thq-nav-elm ${props.rootClassName} `}>
+      <Link to="/" className="navigation-links-navlink1 Navigation-Link">
         {props.link1}
       </Link>
-      <a href="/#about-me" className="navigation-links-link1 Navigation-Link">
+      <a href="/#about-me" className="navigation-links-text Navigation-Link">
         {props.link2}
       </a>
-      {/* <a
-        href="/portofolio"
-        target="_blank"
-        rel="noreferrer noopener"
-        className="navigation-links-link2"
-      >
+      <Link to="/portfolio" className="navigation-links-navlink2">
         {props.link3}
-      </a>
-      <a href="/blog" className="navigation-links-link3 Navigation-Link">
+      </Link>
+      {/* <a href="/blog" className="navigation-links-link Navigation-Link">
         {props.link4}
       </a> */}
+      <nav className="navigation-links-thq-navlinks-elm"></nav>
     </nav>
   )
 }
 
 NavigationLinks.defaultProps = {
-  link3: 'Portofolio',
+  link3: 'Portfolio',
   rootClassName: '',
   link2: 'About',
   link4: 'Blog',

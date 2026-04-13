@@ -1,39 +1,144 @@
 .not-found-container1 {
   width: 100%;
-  display: flex;
-  overflow: auto;
   min-height: 100vh;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
 }
  
 .not-found-container2 {
-  display: flex;
-  position: relative;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
- 
-.not-found-text2 {
-  color: rgb(38, 38, 38);
-  font-size: 252px;
-  margin-top: -20px;
-  font-weight: 900;
-  margin-bottom: -20px;
-  letter-spacing: -20px;
+  display: none;
 }
  
 .not-found-container3 {
-  width: 421px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
+  display: contents;
 }
  
-.not-found-text3 {
-  text-align: center;
+.not-found-fragment10 {
+  display: contents;
+}
+ 
+.not-found-text11 {
+  display: inline-block;
+}
+ 
+.not-found-fragment11 {
+  display: contents;
+}
+ 
+.not-found-text12 {
+  display: inline-block;
+}
+ 
+.not-found-fragment12 {
+  display: contents;
+}
+ 
+.not-found-text13 {
+  display: inline-block;
+}
+ 
+.not-found-fragment13 {
+  display: contents;
+}
+ 
+.not-found-text14 {
+  display: inline-block;
+}
+ 
+.not-found-fragment14 {
+  display: contents;
+}
+ 
+.not-found-text15 {
+  display: inline-block;
+}
+ 
+.not-found-fragment15 {
+  display: contents;
+}
+ 
+.not-found-text16 {
+  display: inline-block;
+}
+ 
+.not-found-fragment16 {
+  display: contents;
+}
+ 
+.not-found-text17 {
+  display: inline-block;
+}
+ 
+.not-found-fragment17 {
+  display: contents;
+}
+ 
+.not-found-text18 {
+  display: inline-block;
+}
+ 
+.not-found-fragment18 {
+  display: contents;
+}
+ 
+.not-found-text19 {
+  display: inline-block;
+}
+ 
+.not-found-fragment19 {
+  display: contents;
+}
+ 
+.not-found-text20 {
+  display: inline-block;
+}
+ 
+.not-found-fragment20 {
+  display: contents;
+}
+ 
+.not-found-text21 {
+  display: inline-block;
+  margin-bottom: var(--dl-layout-space-unit);
+}
+ 
+.not-found-fragment21 {
+  display: contents;
+}
+ 
+.not-found-text29 {
+  color: var(--color-text-muted);
+  display: inline-block;
+  font-size: 0.875rem;
+  align-self: center;
+  font-family: var(--font-body);
   font-weight: 400;
+}
+ 
+.not-found-fragment22 {
+  display: contents;
+}
+ 
+.not-found-text33 {
+  display: inline-block;
+}
+ 
+.not-found-fragment23 {
+  display: contents;
+}
+ 
+.not-found-text34 {
+  display: inline-block;
+}
+ 
+.not-found-fragment24 {
+  display: contents;
+}
+ 
+.not-found-text35 {
+  display: inline-block;
+}
+ 
+@media(max-width: 479px) {
+  .not-found-text29 {
+    text-align: center;
+  }
 }

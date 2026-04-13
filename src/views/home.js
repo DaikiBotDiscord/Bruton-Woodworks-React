@@ -13,29 +13,44 @@ const Home = (props) => {
       <Helmet>
         <title>Bruton Woodworks</title>
         <meta property="og:title" content="Bruton Woodworks" />
+        <link
+          rel="canonical"
+          href="https://creative-agency-page-nlvcaa-daikibotdiscords-projects.vercel.app/"
+        />
+        <meta
+          property="og:url"
+          content="https://creative-agency-page-nlvcaa-daikibotdiscords-projects.vercel.app/"
+        />
       </Helmet>
       <Navigation></Navigation>
-      <main className="home-main">
-        <div className="home-hero section-container">
-          <div className="home-max-width1 max-content-container">
-            <div className="home-heading-container">
-              <h1 className="home-heading">
+      <main className="home-thq-main-elm">
+        <div className="home-thq-hero-elm section-container">
+          <div className="home-thq-max-width-elm1 max-content-container">
+            <div className="home-thq-heading-container-elm">
+              <span className="hero-subtitle">
+                Handcrafted Woodworking in Littleton, CO
+              </span>
+              <h1 className="home-thq-heading-elm">
                 Where Craftsmanship meets Creativity
               </h1>
+              <p className="home-thq-hero-description-elm">
+                Custom furniture, home décor, and unique wood pieces built with
+                purpose and passion.
+              </p>
               <Link
                 to="/contact"
-                className="home-primary1 button-primary button-lg button"
+                className="home-thq-primary-elm1 button-primary button-lg button"
               >
                 Get in touch with me
               </Link>
             </div>
           </div>
         </div>
-        <div className="home-about section-container">
-          <div className="home-max-width2 max-content-container">
-            <div className="home-text-container1">
-              <span id="about-me" className="home-text10">
-                about Me
+        <div id="about-me" className="home-thq-about-elm section-container">
+          <div className="home-thq-max-width-elm2 max-content-container">
+            <div className="home-thq-text-container-elm1">
+              <span className="home-text10" itemID='about-me'>
+                About Me
               </span>
               <h2 className="home-text11 Heading2">
                 <span>
@@ -79,8 +94,8 @@ const Home = (props) => {
                 <br></br>
                 <br></br>
               </span>
-              <div className="home-checklist">
-                <div className="home-check-item1">
+              <div className="home-thq-checklist-elm">
+                <div className="home-thq-check-item-elm1">
                   <svg viewBox="0 0 1024 1024" className="home-icon10">
                     <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                   </svg>
@@ -91,7 +106,7 @@ const Home = (props) => {
                     <br></br>
                   </span>
                 </div>
-                <div className="home-check-item2">
+                <div className="home-thq-check-item-elm2">
                   <svg viewBox="0 0 1024 1024" className="home-icon12">
                     <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                   </svg>
@@ -100,7 +115,7 @@ const Home = (props) => {
                     <br></br>
                   </span>
                 </div>
-                <div className="home-check-item3">
+                <div className="home-thq-check-item-elm3">
                   <svg viewBox="0 0 1024 1024" className="home-icon14">
                     <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                   </svg>
@@ -109,7 +124,7 @@ const Home = (props) => {
                     <br></br>
                   </span>
                 </div>
-                <div className="home-check-item4">
+                <div className="home-thq-check-item-elm4">
                   <svg viewBox="0 0 1024 1024" className="home-icon16">
                     <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                   </svg>
@@ -125,7 +140,7 @@ const Home = (props) => {
                     <span>— serving the South Denver Metro</span>
                   </span>
                 </div>
-                <div className="home-check-item5">
+                <div className="home-thq-check-item-elm5">
                   <svg viewBox="0 0 1024 1024" className="home-icon18">
                     <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                   </svg>
@@ -136,7 +151,7 @@ const Home = (props) => {
                     <br></br>
                   </span>
                 </div>
-                <div className="home-check-item6">
+                <div className="home-thq-check-item-elm6">
                   <svg viewBox="0 0 1024 1024" className="home-icon20">
                     <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                   </svg>
@@ -147,16 +162,46 @@ const Home = (props) => {
                 </div>
               </div>
             </div>
-            <div className="home-image-container">
-              <img
-                alt="image"
-                src="https://play.teleporthq.io/static/svg/default-img.svg"
-                className="home-image"
-              />
+            <div className="home-thq-vertical-image-gallery-elm">
+              <div className="gallery-image-wrapper">
+                <img
+                  alt="Artisan woodworking craftsmanship"
+                  src="https://images.pexels.com/photos/30907881/pexels-photo-30907881.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=300"
+                  className="gallery-image"
+                />
+              </div>
+              <div className="gallery-image-wrapper">
+                <img
+                  alt="Hands using a planer on wood"
+                  src="https://images.pexels.com/photos/7109995/pexels-photo-7109995.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=300"
+                  className="gallery-image"
+                />
+              </div>
+              <div className="gallery-image-wrapper">
+                <img
+                  alt="Joiner cutting hardwood plank"
+                  src="https://images.pexels.com/photos/5974277/pexels-photo-5974277.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=300"
+                  className="gallery-image"
+                />
+              </div>
+              <div className="gallery-image-wrapper">
+                <img
+                  alt="Joiner cutting hardwood plank"
+                  src="https://images.pexels.com/photos/5974277/pexels-photo-5974277.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=300"
+                  className="gallery-image"
+                />
+              </div>
+              <div className="gallery-image-wrapper">
+                <img
+                  alt="Joiner cutting hardwood plank"
+                  src="https://images.pexels.com/photos/5974277/pexels-photo-5974277.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=300"
+                  className="gallery-image"
+                />
+              </div>
             </div>
           </div>
-          <div className="home-max-width3 max-content-container">
-            <div className="home-text-container2">
+          <div className="home-thq-max-width-elm3 max-content-container">
+            <div className="home-thq-text-container-elm2">
               <h2 className="home-text39">Our Statement</h2>
               <span className="home-text40">
                 Every cut, joint, and finish is done with care using quality
@@ -170,8 +215,8 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div className="home-banner section-container">
-          <div className="home-max-width4 max-content-container">
+        <div className="home-thq-banner-elm section-container">
+          <div className="home-thq-max-width-elm4 max-content-container">
             <span className="home-text41">what are you waiting for?</span>
             <h2 className="home-text42 Heading2">Let’s collaborate!</h2>
             <span className="home-text43">
@@ -182,7 +227,7 @@ const Home = (props) => {
             </span>
             <Link
               to="/contact"
-              className="home-primary2 button-lg button-secondary-white button"
+              className="home-thq-primary-elm2 button-lg button-secondary-white button"
             >
               Contact us
             </Link>
