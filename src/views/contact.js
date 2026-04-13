@@ -14,7 +14,7 @@ const Contact = (props) => {
                 <meta property="og:title" content="Contact - Bruton Woodworks" />
                 <link
                     rel="canonical"
-                    href="https://brutonwood.work/contact"
+                    href="https://brutonwoodworks.com/contact"
                 />
             </Helmet>
             <Navigation />
@@ -58,10 +58,10 @@ const Contact = (props) => {
                                         ></path>
                                     </svg>
                                     <a
-                                        href="mailto:nick@brutonwood.work?subject="
+                                        href="mailto:nick@brutonwoodworks.com?subject="
                                         className="contact-link2"
                                     >
-                                        <span>nick@brutonwood.work</span>
+                                        <span>nick@brutonwoodworks.com</span>
                                         <br></br>
                                     </a>
                                 </div>
