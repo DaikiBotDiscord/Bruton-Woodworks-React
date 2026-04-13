@@ -14,6 +14,9 @@ const NavigationLinks = (props) => {
       <a href="/#about-me" className="navigation-links-text Navigation-Link">
         {props.link2}
       </a>
+      <Link to="/contact" className="navigation-links-navlink2">
+        {props.link5}
+      </Link>
       <Link to="/portfolio" className="navigation-links-navlink2">
         {props.link3}
       </Link>
@@ -30,6 +33,7 @@ NavigationLinks.defaultProps = {
   rootClassName: '',
   link2: 'About',
   link4: 'Blog',
+  link5: 'Contact',
   link1: 'Home',
 }
 
@@ -38,6 +42,7 @@ NavigationLinks.propTypes = {
   rootClassName: PropTypes.string,
   link2: PropTypes.string,
   link4: PropTypes.string,
+  link5: PropTypes.string,
   link1: PropTypes.string,
 }
 
