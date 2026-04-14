@@ -124,6 +124,7 @@ const Portfolio = (props) => {
             </p>
           </header>
           <div className="portfolio-thq-portfolio-grid-elm portfolio-grid">
+            {/* Card 1 - 2-Tier Cedar & Pine Vertical Planter */}
             <article className="portfolio-card">
               <div className="portfolio-card-image-wrapper">
                 <img
@@ -168,6 +169,7 @@ const Portfolio = (props) => {
                 </p>
               </div>
             </article>
+            {/* Card 2 - 3-Tier Cedar & Pine Vertical Planter */}
             <article className="portfolio-card">
               <div className="portfolio-card-image-wrapper">
                 <img
@@ -212,6 +214,7 @@ const Portfolio = (props) => {
                 </p>
               </div>
             </article>
+            {/* Card 3 - Wine Cork Trivet */}
             <article className="portfolio-card">
               <div className="portfolio-card-image-wrapper">
                 <img
@@ -251,6 +254,7 @@ const Portfolio = (props) => {
                 </p>
               </div>
             </article>
+            {/* Card 4 - Medium Cedar Planter Box */}
             <article className="portfolio-card">
               <div className="portfolio-card-image-wrapper">
                 <img
@@ -297,6 +301,7 @@ const Portfolio = (props) => {
                 </p>
               </div>
             </article>
+              {/* Card 5 - Small Cedar Planter Box */}
             <article className="portfolio-card">
               <div className="portfolio-card-image-wrapper">
                 <img
@@ -342,6 +347,7 @@ const Portfolio = (props) => {
                 </p>
               </div>
             </article>
+              {/* Card 6 - 6ft 5 Piece Trellis */}
             <article className="portfolio-card">
               <div className="portfolio-card-image-wrapper">
                 <img
@@ -380,6 +386,7 @@ const Portfolio = (props) => {
                 </p>
               </div>
             </article>
+              {/* Card 7 - Large Blue Pine Planter Box */}
             <article className="portfolio-card">
               <div className="portfolio-card-image-wrapper">
                 <img
@@ -423,6 +430,7 @@ const Portfolio = (props) => {
                 </p>
               </div>
             </article>
+              {/* Card 8 - Unique Scalloped Planter */}
             <article className="portfolio-card">
               <div className="portfolio-card-image-wrapper">
                 <img
@@ -467,6 +475,7 @@ const Portfolio = (props) => {
                 </p>
               </div>
             </article>
+              {/* Card 9 - Hat Rack/Display */}
             <article className="portfolio-card">
               <div className="portfolio-card-image-wrapper">
                 <img
@@ -579,111 +588,7 @@ transform: scaleY(1);}}
           ></Script>
         </div>
       </div>
-      <Footer
-        text1={
-          <Fragment>
-            <span className="portfolio-text233">
-              Subscribe to our newsletter
-            </span>
-          </Fragment>
-        }
-        text2={
-          <Fragment>
-            <span className="portfolio-text234">Product</span>
-          </Fragment>
-        }
-        text3={
-          <Fragment>
-            <span className="portfolio-text235">About</span>
-          </Fragment>
-        }
-        text4={
-          <Fragment>
-            <span className="portfolio-text236">Portofolio</span>
-          </Fragment>
-        }
-        text5={
-          <Fragment>
-            <span className="portfolio-text237">Blog</span>
-          </Fragment>
-        }
-        text6={
-          <Fragment>
-            <span className="portfolio-text238">Navigate</span>
-          </Fragment>
-        }
-        text8={
-          <Fragment>
-            <span className="portfolio-text239">Sitemap</span>
-          </Fragment>
-        }
-        text9={
-          <Fragment>
-            <span className="portfolio-text240">Privacy Policy</span>
-          </Fragment>
-        }
-        button={
-          <Fragment>
-            <span className="portfolio-text241">Subscribe</span>
-          </Fragment>
-        }
-        text10={
-          <Fragment>
-            <span className="portfolio-text242">Contact Us</span>
-          </Fragment>
-        }
-        text11={
-          <Fragment className="portfolio-fragment20">
-            <span className="portfolio-text243">
-              <span>5593 S Datura</span>
-              <br></br>
-              <span>Street, Littleton</span>
-              <br></br>
-              <span> Colorado</span>
-              <br></br>
-              <span>80120</span>
-            </span>
-          </Fragment>
-        }
-        text12={
-          <Fragment className="portfolio-fragment21">
-            <span className="portfolio-text251">
-              <span>
-                All rights reserved
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <a
-                href="https://app.copyrighted.com/website/cTJZUAvq781Ukxnm/"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                ©
-              </a>
-              <br></br>
-              <span>Daiki Development</span>
-            </span>
-          </Fragment>
-        }
-        text13={
-          <Fragment>
-            <span className="portfolio-text255">Contact</span>
-          </Fragment>
-        }
-        text14={
-          <Fragment>
-            <span className="portfolio-text256">Home</span>
-          </Fragment>
-        }
-        text15={
-          <Fragment>
-            <span className="portfolio-text257">Portfolio</span>
-          </Fragment>
-        }
-      ></Footer>
+      <Footer/>
     </div>
   )
 }
