@@ -166,36 +166,22 @@ const Home = (props) => {
               <div className="gallery-image-wrapper">
                 <img
                   alt="Artisan woodworking craftsmanship"
-                  src="https://images.pexels.com/photos/30907881/pexels-photo-30907881.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=300"
-                  className="gallery-image"
+                  src="3-tier-planter_side.JPG"
+                  className="home-thq-gallery-image-elm1 gallery-image"
                 />
               </div>
               <div className="gallery-image-wrapper">
                 <img
                   alt="Hands using a planer on wood"
-                  src="https://images.pexels.com/photos/7109995/pexels-photo-7109995.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=300"
-                  className="gallery-image"
+                  src="cutting-board-peach_side.JPG"
+                  className="home-thq-gallery-image-elm1 gallery-image"
                 />
               </div>
               <div className="gallery-image-wrapper">
                 <img
                   alt="Joiner cutting hardwood plank"
-                  src="https://images.pexels.com/photos/5974277/pexels-photo-5974277.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=300"
-                  className="gallery-image"
-                />
-              </div>
-              <div className="gallery-image-wrapper">
-                <img
-                  alt="Joiner cutting hardwood plank"
-                  src="https://images.pexels.com/photos/5974277/pexels-photo-5974277.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=300"
-                  className="gallery-image"
-                />
-              </div>
-              <div className="gallery-image-wrapper">
-                <img
-                  alt="Joiner cutting hardwood plank"
-                  src="https://images.pexels.com/photos/5974277/pexels-photo-5974277.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=300"
-                  className="gallery-image"
+                  src="contact-image.jpeg"
+                  className="home-thq-gallery-image-elm1 gallery-image"
                 />
               </div>
             </div>

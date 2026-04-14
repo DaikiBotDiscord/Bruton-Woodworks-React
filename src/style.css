@@ -1105,7 +1105,7 @@
 }
  
 .portfolio-card:nth-child(5) {
-  grid-row: span 2;
+  grid-row: span 1;
   grid-column: span 1;
 }
  
@@ -1132,7 +1132,7 @@
 }
  
 .portfolio-card:nth-child(5) .portfolio-card-image-wrapper {
-  aspect-ratio: 3/4;
+  aspect-ratio: 4/3;
 }
  
 .portfolio-card:hover .portfolio-card-image {
@@ -1144,16 +1144,6 @@
 }
  
 
- 
-.portfolio-card-featured  .portfolio-card-title {
-  color: var(--color-primary);
-  font-size: 1.75rem;
-}
- 
-.portfolio-card-featured  .portfolio-card-category {
-  color: #ffffff;
-  background: var(--color-primary);
-}
  
 .footer-text11 {
   color: var(--color-text-secondary);

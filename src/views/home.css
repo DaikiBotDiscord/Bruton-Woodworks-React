@@ -329,6 +329,10 @@
   padding: var(--space-sm);
   flex-direction: column;
 }
+
+.home-thq-gallery-image-elm1 {
+  height: 200px;
+}
  
 .home-thq-max-width-elm3 {
   margin: 0 auto;
