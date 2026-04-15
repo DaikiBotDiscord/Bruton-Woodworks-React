@@ -39,7 +39,7 @@ const Navigation = (props) => {
             <div className="navigation-thq-container-elm">
               <img
                 alt="image"
-                src="/logo_colorstranstop-1500h.png"
+                src="/logo_colorstranstop-200h.png"
                 className="navigation-thq-image-elm"
               />
               <div

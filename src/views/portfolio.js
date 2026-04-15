@@ -129,7 +129,7 @@ const Portfolio = (props) => {
               <div className="portfolio-card-image-wrapper">
                 <img
                   alt="Craftsman skillfully restoring a wooden chair in his workshop"
-                  src="https://images.pexels.com/photos/31567149/pexels-photo-31567149.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1400"
+                  src="2-3 tiered planters-3.png"
                   className="portfolio-card-image"
                 />
                 <div className="portfolio-card-overlay">
@@ -174,7 +174,7 @@ const Portfolio = (props) => {
               <div className="portfolio-card-image-wrapper">
                 <img
                   alt="Close-up of a rustic wooden chair against a wooden table"
-                  src="https://images.pexels.com/photos/1629191/pexels-photo-1629191.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1400"
+                  src="2-3 tiered planters-2.png"
                   className="portfolio-card-image"
                 />
                 <div className="portfolio-card-overlay">
@@ -219,7 +219,7 @@ const Portfolio = (props) => {
               <div className="portfolio-card-image-wrapper">
                 <img
                   alt="Simple and modern wooden chair and cabinet in a minimalist interior"
-                  src="https://images.pexels.com/photos/12277202/pexels-photo-12277202.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1400"
+                  src="Image-Coming-Soon.png"
                   className="portfolio-card-image"
                 />
                 <div className="portfolio-card-overlay">
@@ -259,7 +259,7 @@ const Portfolio = (props) => {
               <div className="portfolio-card-image-wrapper">
                 <img
                   alt="Interior of cozy dining room with wooden table and chairs"
-                  src="https://images.pexels.com/photos/5998031/pexels-photo-5998031.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1400"
+                  src="Image-Coming-Soon.png"
                   className="portfolio-card-image"
                 />
                 <div className="portfolio-card-overlay">
@@ -306,7 +306,7 @@ const Portfolio = (props) => {
               <div className="portfolio-card-image-wrapper">
                 <img
                   alt="Artisan carefully crafting wood with traditional hand tools"
-                  src="https://images.pexels.com/photos/30907881/pexels-photo-30907881.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1400"
+                  src="Image-Coming-Soon.png"
                   className="portfolio-card-image"
                 />
                 <div className="portfolio-card-overlay">
@@ -352,7 +352,7 @@ const Portfolio = (props) => {
               <div className="portfolio-card-image-wrapper">
                 <img
                   alt="Cozy outdoor patio featuring rustic wooden furniture"
-                  src="https://images.pexels.com/photos/31310746/pexels-photo-31310746.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1400"
+                  src="Image-Coming-Soon.png"
                   className="portfolio-card-image"
                 />
                 <div className="portfolio-card-overlay">
@@ -391,7 +391,7 @@ const Portfolio = (props) => {
               <div className="portfolio-card-image-wrapper">
                 <img
                   alt="Cozy outdoor patio featuring rustic wooden furniture"
-                  src="https://images.pexels.com/photos/31310746/pexels-photo-31310746.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1400"
+                  src="Image-Coming-Soon.png"
                   className="portfolio-card-image"
                 />
                 <div className="portfolio-card-overlay">
@@ -435,7 +435,7 @@ const Portfolio = (props) => {
               <div className="portfolio-card-image-wrapper">
                 <img
                   alt="Cozy outdoor patio featuring rustic wooden furniture"
-                  src="https://images.pexels.com/photos/31310746/pexels-photo-31310746.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1400"
+                  src="Image-Coming-Soon.png"
                   className="portfolio-card-image"
                 />
                 <div className="portfolio-card-overlay">
@@ -480,7 +480,7 @@ const Portfolio = (props) => {
               <div className="portfolio-card-image-wrapper">
                 <img
                   alt="Cozy outdoor patio featuring rustic wooden furniture"
-                  src="https://images.pexels.com/photos/31310746/pexels-photo-31310746.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1400"
+                  src="Image-Coming-Soon.png"
                   className="portfolio-card-image"
                 />
                 <div className="portfolio-card-overlay">
