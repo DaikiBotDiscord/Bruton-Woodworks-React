@@ -61,7 +61,6 @@ const Navigation = (props) => {
           </div>
         </div>
       </div>
-      <nav className="navigation-thq-navlinks-elm"></nav>
     </header>
   )
 }

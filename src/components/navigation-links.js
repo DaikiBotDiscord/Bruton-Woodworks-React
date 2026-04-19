@@ -23,7 +23,6 @@ const NavigationLinks = (props) => {
       {/* <a href="/blog" className="navigation-links-link Navigation-Link">
         {props.link4}
       </a> */}
-      <nav className="navigation-links-thq-navlinks-elm"></nav>
     </nav>
   )
 }

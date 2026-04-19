@@ -103,6 +103,8 @@ const Contact = (props) => {
         </div>
       </main>
       <Footer
+        isDarkMode={props.isDarkMode}
+        onToggleTheme={props.onToggleTheme}
         text1={
           <Fragment>
             <span className="contact-text16">Subscribe to our newsletter</span>

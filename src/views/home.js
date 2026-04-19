@@ -220,7 +220,7 @@ const Home = (props) => {
           </div>
         </div>
       </main>
-      <Footer />
+      <Footer isDarkMode={props.isDarkMode} onToggleTheme={props.onToggleTheme} />
     </div>
   )
 }

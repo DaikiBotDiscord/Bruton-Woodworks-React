@@ -133,7 +133,7 @@ const Portfolio = (props) => {
                   className="portfolio-card-image"
                 />
                 <div className="portfolio-card-overlay">
-                  <span className="portfolio-card-category">Restoration</span>
+                  <span className="portfolio-card-category">Garden</span>
                 </div>
               </div>
               <div className="portfolio-card-content">
@@ -178,7 +178,7 @@ const Portfolio = (props) => {
                   className="portfolio-card-image"
                 />
                 <div className="portfolio-card-overlay">
-                  <span className="portfolio-card-category">Furniture</span>
+                  <span className="portfolio-card-category">Garden</span>
                 </div>
               </div>
               <div className="portfolio-card-content">
@@ -219,11 +219,11 @@ const Portfolio = (props) => {
               <div className="portfolio-card-image-wrapper">
                 <img
                   alt="Simple and modern wooden chair and cabinet in a minimalist interior"
-                  src="Image-Coming-Soon.png"
+                  src="wine-cork-trivet.jpg"
                   className="portfolio-card-image"
                 />
                 <div className="portfolio-card-overlay">
-                  <span className="portfolio-card-category">Modern Design</span>
+                  <span className="portfolio-card-category">Cooking</span>
                 </div>
               </div>
               <div className="portfolio-card-content">
@@ -263,7 +263,7 @@ const Portfolio = (props) => {
                   className="portfolio-card-image"
                 />
                 <div className="portfolio-card-overlay">
-                  <span className="portfolio-card-category">Custom Build</span>
+                  <span className="portfolio-card-category">Garden</span>
                 </div>
               </div>
               <div className="portfolio-card-content">
@@ -310,7 +310,7 @@ const Portfolio = (props) => {
                   className="portfolio-card-image"
                 />
                 <div className="portfolio-card-overlay">
-                  <span className="portfolio-card-category">Featured Work</span>
+                  <span className="portfolio-card-category">Garden</span>
                 </div>
               </div>
               <div className="portfolio-card-content">
@@ -356,7 +356,7 @@ const Portfolio = (props) => {
                   className="portfolio-card-image"
                 />
                 <div className="portfolio-card-overlay">
-                  <span className="portfolio-card-category">Outdoor</span>
+                  <span className="portfolio-card-category">Garden</span>
                 </div>
               </div>
               <div className="portfolio-card-content">
@@ -395,7 +395,7 @@ const Portfolio = (props) => {
                   className="portfolio-card-image"
                 />
                 <div className="portfolio-card-overlay">
-                  <span className="portfolio-card-category">Outdoor</span>
+                  <span className="portfolio-card-category">Garden</span>
                 </div>
               </div>
               <div className="portfolio-card-content">
@@ -439,7 +439,7 @@ const Portfolio = (props) => {
                   className="portfolio-card-image"
                 />
                 <div className="portfolio-card-overlay">
-                  <span className="portfolio-card-category">Outdoor</span>
+                  <span className="portfolio-card-category">Garden</span>
                 </div>
               </div>
               <div className="portfolio-card-content">
@@ -480,11 +480,11 @@ const Portfolio = (props) => {
               <div className="portfolio-card-image-wrapper">
                 <img
                   alt="Cozy outdoor patio featuring rustic wooden furniture"
-                  src="Image-Coming-Soon.png"
+                  src="hat-rack_side.jpeg"
                   className="portfolio-card-image"
                 />
                 <div className="portfolio-card-overlay">
-                  <span className="portfolio-card-category">Outdoor</span>
+                  <span className="portfolio-card-category">Home Décor</span>
                 </div>
               </div>
               <div className="portfolio-card-content">
@@ -588,7 +588,7 @@ transform: scaleY(1);}}
           ></Script>
         </div>
       </div>
-      <Footer/>
+      <Footer isDarkMode={props.isDarkMode} onToggleTheme={props.onToggleTheme} />
     </div>
   )
 }

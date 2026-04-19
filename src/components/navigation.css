@@ -88,13 +88,6 @@
   text-decoration: none;
 }
  
-.navigation-thq-navlinks-elm {
-  gap: 16px;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  display: flex;
-  align-items: center;
-}
- 
 @media(max-width: 991px) {
   .navigation-thq-nav-elm1 {
     display: none;

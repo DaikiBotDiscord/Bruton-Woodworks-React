@@ -178,6 +178,8 @@ const NotFound = (props) => {
         </div>
       </div>
       <Footer
+        isDarkMode={props.isDarkMode}
+        onToggleTheme={props.onToggleTheme}
         text1={
           <Fragment className="not-found-fragment10">
             <span className="not-found-text11">

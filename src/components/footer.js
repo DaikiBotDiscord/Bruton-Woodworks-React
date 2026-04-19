@@ -174,6 +174,16 @@ const Footer = (props) => {
           )}
         </Link>
       </nav>
+      <div className="footer-theme-toggle-container">
+        <button
+          type="button"
+          onClick={props.onToggleTheme}
+          className="footer-theme-toggle button"
+          aria-label={`Switch to ${props.isDarkMode ? 'light' : 'dark'} mode`}
+        >
+          {props.isDarkMode ? 'Switch to Day Mode' : 'Switch to Night Mode'}
+        </button>
+      </div>
     </div>
   )
 }
@@ -197,6 +207,8 @@ Footer.defaultProps = {
   text14: undefined,
   text5: undefined,
   textinputPlaceholder: 'Enter your e-mail address',
+  isDarkMode: false,
+  onToggleTheme: () => {},
 }
 
 Footer.propTypes = {
@@ -218,6 +230,8 @@ Footer.propTypes = {
   text14: PropTypes.element,
   text5: PropTypes.element,
   textinputPlaceholder: PropTypes.string,
+  isDarkMode: PropTypes.bool,
+  onToggleTheme: PropTypes.func,
 }
 
 export default Footer
