@@ -71,6 +71,7 @@ const App = () => {
   return (
     <>
       <Router>
+      <Analytics />
         <ScrollControls />
         <Switch>
           <Route
@@ -123,7 +124,6 @@ const App = () => {
           <Redirect to="**" />
         </Switch>
       </Router>
-      <Analytics />
     </>
   )
 }
