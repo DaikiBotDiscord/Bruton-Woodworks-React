@@ -7,6 +7,7 @@ import {
   Redirect,
   useLocation,
 } from 'react-router-dom'
+import { Analytics } from '@vercel/analytics/react'
 
 import './style.css'
 import Home from './views/home'
@@ -120,6 +121,7 @@ const App = () => {
         />
         <Redirect to="**" />
       </Switch>
+      <Analytics />
     </Router>
   )
 }
