@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import ReactDOM from 'react-dom'
+import { Analytics } from '@vercel/analytics/react'
 import {
   BrowserRouter as Router,
   Route,
@@ -68,59 +69,62 @@ const App = () => {
   }
 
   return (
-    <Router>
-      <ScrollControls />
-      <Switch>
-        <Route
-          exact
-          path="/"
-          render={(routeProps) => (
-            <Home
-              {...routeProps}
-              isDarkMode={isDarkMode}
-              onToggleTheme={handleToggleTheme}
-            />
-          )}
-        />
-        <Route path='/home' component={() => {
-          window.location.href = '/';
-          return null;
-        }} />
-        <Route
-          exact
-          path="/contact"
-          render={(routeProps) => (
-            <Contact
-              {...routeProps}
-              isDarkMode={isDarkMode}
-              onToggleTheme={handleToggleTheme}
-            />
-          )}
-        />
-        <Route
-          exact
-          path="/portfolio"
-          render={(routeProps) => (
-            <Portfolio
-              {...routeProps}
-              isDarkMode={isDarkMode}
-              onToggleTheme={handleToggleTheme}
-            />
-          )}
-        />
-        <Route
-          path="**"
-          render={(routeProps) => (
-            <NotFound
-              {...routeProps}
-              isDarkMode={isDarkMode}
-              onToggleTheme={handleToggleTheme}
-            />
-          )}
-        />
-        <Redirect to="**" />
-      </Switch>
-    </Router>
+    <>
+      <Router>
+        <ScrollControls />
+        <Switch>
+          <Route
+            exact
+            path="/"
+            render={(routeProps) => (
+              <Home
+                {...routeProps}
+                isDarkMode={isDarkMode}
+                onToggleTheme={handleToggleTheme}
+              />
+            )}
+          />
+          <Route path='/home' component={() => {
+            window.location.href = '/';
+            return null;
+          }} />
+          <Route
+            exact
+            path="/contact"
+            render={(routeProps) => (
+              <Contact
+                {...routeProps}
+                isDarkMode={isDarkMode}
+                onToggleTheme={handleToggleTheme}
+              />
+            )}
+          />
+          <Route
+            exact
+            path="/portfolio"
+            render={(routeProps) => (
+              <Portfolio
+                {...routeProps}
+                isDarkMode={isDarkMode}
+                onToggleTheme={handleToggleTheme}
+              />
+            )}
+          />
+          <Route
+            path="**"
+            render={(routeProps) => (
+              <NotFound
+                {...routeProps}
+                isDarkMode={isDarkMode}
+                onToggleTheme={handleToggleTheme}
+              />
+            )}
+          />
+          <Redirect to="**" />
+        </Switch>
+      </Router>
+      <Analytics />
+    </>
   )
 }
 
